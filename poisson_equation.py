@@ -25,6 +25,7 @@ L = f*v*dx
 # Compute solution
 u = Function(V)
 solve(a == L, u, bc)
+input('val: ')
 
 # Plot solution and mesh
 plot(u)
