@@ -25,7 +25,6 @@ L = f*v*dx
 # Compute solution
 u = Function(V)
 solve(a == L, u, bc)
-print('xdxd')
 
 
 # Plot solution and mesh
