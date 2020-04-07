@@ -48,3 +48,5 @@ error_max = np.max(np.abs(vertex_value_u_D - vertex_value_u))
 print('u:', u)
 print('Error L2:', error_L2)
 print('Error max:', error_max)
+
+interactive()
