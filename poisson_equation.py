@@ -1,3 +1,4 @@
+import matplotlib.pyplot as plt
 import numpy as np
 
 from fenics import *
@@ -49,4 +50,5 @@ print('u:', u)
 print('Error L2:', error_L2)
 print('Error max:', error_max)
 
-interactive()
+plot(u)
+plt.show(u)
