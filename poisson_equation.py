@@ -51,4 +51,4 @@ print('Error L2:', error_L2)
 print('Error max:', error_max)
 
 plot(u)
-plt.show(u)
+plt.show()
