@@ -1,4 +1,5 @@
 import numpy as np
+
 from fenics import *
 
 # Create mesh and define function space
@@ -44,5 +45,6 @@ vertex_value_u = u.compute_vertex_values(mesh)
 error_max = np.max(np.abs(vertex_value_u_D - vertex_value_u))
 
 # Print errors
+print('u:', u)
 print('Error L2:', error_L2)
 print('Error max:', error_max)
