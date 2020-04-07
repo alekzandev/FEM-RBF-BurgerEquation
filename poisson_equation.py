@@ -29,10 +29,6 @@ u = Function(V)
 solve(a == L, u, bc)
 
 
-# Plot solution and mesh
-plot(u)
-plot(mesh)
-
 # Save solution to file in VTK format
 vtkfile = File('poisson/solution.pvd')
 vtkfile << u
@@ -50,6 +46,7 @@ print('u:', u)
 print('Error L2:', error_L2)
 print('Error max:', error_max)
 
+# Plot solution and mesh
 plot(u)
 plt.show()
 plt.savefig('poissonEq.png')
