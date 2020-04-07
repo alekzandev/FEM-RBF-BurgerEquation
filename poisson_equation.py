@@ -52,3 +52,4 @@ print('Error max:', error_max)
 
 plot(u)
 plt.show()
+plt.savefig('poissonEq.png')
