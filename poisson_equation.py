@@ -4,8 +4,8 @@ import numpy as np
 from fenics import *
 
 # Create mesh and define function space
-mesh = UnitSquareMesh(8, 8)
-V = FunctionSpace(mesh, 'P', 1)
+mesh = UnitSquareMesh(8, 10)
+V = FunctionSpace(mesh, 'P', 3)
 
 # Define boundary condition
 u_D = Expression('1 + x[0]*x[0] + 2*x[1]*x[1]', degree=2)
