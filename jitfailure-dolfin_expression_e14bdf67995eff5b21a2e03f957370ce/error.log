@@ -1,0 +1,14 @@
+/tmp/tmpnezcrv53/dolfin_expression_e14bdf67995eff5b21a2e03f957370ce.cpp: In member function ‘virtual void dolfin::dolfin_expression_e14bdf67995eff5b21a2e03f957370ce::eval(Eigen::Ref<Eigen::Matrix<double, -1, 1> >, Eigen::Ref<const Eigen::Matrix<double, -1, 1> >) const’:
+/tmp/tmpnezcrv53/dolfin_expression_e14bdf67995eff5b21a2e03f957370ce.cpp:63:49: error: invalid type argument of unary ‘*’ (have ‘int’)
+           values[0] = 4*exp(-pow(beta,2)*(x[0]**2+(x[1]-R0)**2));
+                                                 ^
+/tmp/tmpnezcrv53/dolfin_expression_e14bdf67995eff5b21a2e03f957370ce.cpp:63:62: error: invalid type argument of unary ‘*’ (have ‘int’)
+           values[0] = 4*exp(-pow(beta,2)*(x[0]**2+(x[1]-R0)**2));
+                                                              ^
+/tmp/tmpnezcrv53/dolfin_expression_e14bdf67995eff5b21a2e03f957370ce.cpp: In member function ‘virtual double dolfin::dolfin_expression_e14bdf67995eff5b21a2e03f957370ce::get_property(std::__cxx11::string) const’:
+/tmp/tmpnezcrv53/dolfin_expression_e14bdf67995eff5b21a2e03f957370ce.cpp:75:11: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+           if (name == "beta") return beta;          if (name == "R0") return R0;
+           ^~
+/tmp/tmpnezcrv53/dolfin_expression_e14bdf67995eff5b21a2e03f957370ce.cpp:75:53: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+           if (name == "beta") return beta;          if (name == "R0") return R0;
+                                                     ^~
