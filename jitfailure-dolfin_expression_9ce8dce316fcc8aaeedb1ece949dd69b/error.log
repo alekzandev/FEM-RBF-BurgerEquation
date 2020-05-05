@@ -1,0 +1,8 @@
+/tmp/tmpj6dsm7jk/dolfin_expression_9ce8dce316fcc8aaeedb1ece949dd69b.cpp: In member function ‘virtual void dolfin::dolfin_expression_9ce8dce316fcc8aaeedb1ece949dd69b::eval(Eigen::Ref<Eigen::Matrix<double, -1, 1> >, Eigen::Ref<const Eigen::Matrix<double, -1, 1> >) const’:
+/tmp/tmpj6dsm7jk/dolfin_expression_9ce8dce316fcc8aaeedb1ece949dd69b.cpp:62:51: error: ‘y’ was not declared in this scope
+           values[0] = exp(-a*pow(x[0], 2) - a*pow(y[1], 2));
+                                                   ^
+/tmp/tmpj6dsm7jk/dolfin_expression_9ce8dce316fcc8aaeedb1ece949dd69b.cpp:62:51: note: suggested alternative: ‘yn’
+           values[0] = exp(-a*pow(x[0], 2) - a*pow(y[1], 2));
+                                                   ^
+                                                   yn
